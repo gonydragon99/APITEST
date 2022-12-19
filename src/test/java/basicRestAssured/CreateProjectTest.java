@@ -22,7 +22,7 @@ public class CreateProjectTest {
     @Test
     public void verifyCreateProject(){
         JSONObject body= new JSONObject();
-        body.put("Content","Bootcamp");
+        body.put("Content","New Itemmm");
 
         Response response=given()
                 .auth()
@@ -31,17 +31,18 @@ public class CreateProjectTest {
                 .body(body.toString())
                 .log().all()
         .when()
-                .post("https://todo.ly/api/projects.json");
+                .post("https://todo.ly/api/items.json");
 
         response.then()
                 .log().all()
                 .statusCode(200)
-                .body("Content",equalTo("Bootcamp"));
+                .body("Content",equalTo("New Itemmm"));
 
-        int idProj = response.then().extract().path("Id");
+        int idItem = response.then().extract().path("Id");
 
-        body.put("Content","BootcampUpdate");
-        body.put("Icon",5);
+
+        body.put("Content","updateeeee");
+
         response=given()
                     .auth()
                     .preemptive()
@@ -49,14 +50,15 @@ public class CreateProjectTest {
                     .body(body.toString())
                     .log().all()
                 .when()
-                    .put("https://todo.ly/api/projects/"+idProj+".json");
+                    .post("https://todo.ly/api/items/"+idItem+".json");
 
         response.then()
                 .log().all()
                 .statusCode(200)
-                .body("Deleted",equalTo(false))
+                .body("Content",equalTo("updateeeee"));/*
+               /* .body("Deleted",equalTo(false))
                 .body("Icon",equalTo(5))
-                .body("Content",equalTo("BootcampUpdate"));
+                .body("Content",equalTo("updateeeee"));*/
 
 
         response=given()
@@ -66,14 +68,13 @@ public class CreateProjectTest {
                     .body(body.toString())
                     .log().all()
                 .when()
-                    .delete("https://todo.ly/api/projects/"+idProj+".json");
+                .delete("https://todo.ly/api/items/"+idItem+".json");
 
         response.then()
                     .log().all()
                     .statusCode(200)
-                    .body("Icon",equalTo(5))
                     .body("Deleted",equalTo(true))
-                    .body("Content",equalTo("BootcampUpdate"));
+                    .body("Content",equalTo("updateeeee"));
 
     }
 
