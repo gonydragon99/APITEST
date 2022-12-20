@@ -36,7 +36,7 @@ public class CreateProjectTest {
         response.then()
                 .log().all()
                 .statusCode(200)
-                .body("Content",equalTo("New Itemm"));
+                .body("Content",equalTo("New Itemmm"));
 
         int idItem = response.then().extract().path("Id");
 
