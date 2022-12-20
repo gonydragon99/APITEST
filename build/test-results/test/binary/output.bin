@@ -18,15 +18,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=2cr1gggpqswwlzl3rxuvhwb5; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=shsiiiasex3vvlgxa44mwhif; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Mon, 19 Dec 2022 18:01:48 GMT
+$Date: Mon, 19 Dec 2022 23:08:23 GMT
 Content-Length: 531
 
 {
-    "Id": 11094072,
+    "Id": 11094165,
     "Content": "New Itemmm",
     "ItemType": 1,
     "Checked": false,
@@ -40,14 +40,14 @@
     "Recurrence": null,
     "ItemOrder": null,
     "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1671472908292)/",
+3    "LastSyncedDateTime": "/Date(1671491303010)/",
     "Children": [
 	        
     ],
     "DueDateTime": null,
-,    "CreatedDate": "/Date(1671472908277)/",
+,    "CreatedDate": "/Date(1671491302993)/",
     "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1671472908277)/",
+0    "LastUpdatedDate": "/Date(1671491302993)/",
     "Deleted": false,
     "Notes": "",
     "InHistory": false,
@@ -56,7 +56,7 @@
     "OwnerId": 707341
 }
 Request method:	POST
-5Request URI:	https://todo.ly/api/items/11094072.json
+5Request URI:	https://todo.ly/api/items/11094165.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -75,15 +75,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=5lagktgn05xzzb3cw3xjpfty; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=0xbg00to5fpgzg1xj4pobe03; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Mon, 19 Dec 2022 18:01:51 GMT
+$Date: Mon, 19 Dec 2022 23:08:27 GMT
 Content-Length: 531
 
 {
-    "Id": 11094072,
+    "Id": 11094165,
     "Content": "updateeeee",
     "ItemType": 1,
     "Checked": false,
@@ -97,14 +97,14 @@
     "Recurrence": null,
     "ItemOrder": null,
     "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1671472911443)/",
+3    "LastSyncedDateTime": "/Date(1671491307315)/",
     "Children": [
 	        
     ],
     "DueDateTime": null,
-,    "CreatedDate": "/Date(1671472908277)/",
+,    "CreatedDate": "/Date(1671491302993)/",
     "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1671472911413)/",
+0    "LastUpdatedDate": "/Date(1671491307300)/",
     "Deleted": false,
     "Notes": "",
     "InHistory": false,
@@ -113,7 +113,7 @@
     "OwnerId": 707341
 }
 Request method:	DELETE
-5Request URI:	https://todo.ly/api/items/11094072.json
+5Request URI:	https://todo.ly/api/items/11094165.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -132,15 +132,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=ac3vp52kbm5lqpmw1tyjdmdd; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=rfaq1cd44yrgldkpk2zpug1d; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Mon, 19 Dec 2022 18:01:52 GMT
+$Date: Mon, 19 Dec 2022 23:08:28 GMT
 Content-Length: 530
 
 {
-    "Id": 11094072,
+    "Id": 11094165,
     "Content": "updateeeee",
     "ItemType": 1,
     "Checked": false,
@@ -154,14 +154,14 @@
     "Recurrence": null,
     "ItemOrder": null,
     "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1671472912863)/",
+3    "LastSyncedDateTime": "/Date(1671491308906)/",
     "Children": [
 	        
     ],
     "DueDateTime": null,
-,    "CreatedDate": "/Date(1671472908277)/",
+,    "CreatedDate": "/Date(1671491302993)/",
     "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1671472912833)/",
+0    "LastUpdatedDate": "/Date(1671491308890)/",
     "Deleted": true,
     "Notes": "",
     "InHistory": false,
