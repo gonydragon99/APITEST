@@ -1,3 +1,33 @@
+Request method:	GET
+;Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+CHeaders:		Authorization=Basic Ym9vdEFQSUBib290QVBJLmNvbToxMjM0NQ==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=oxhzpxboomojlirh34z3pz2v; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Fri, 23 Dec 2022 01:58:25 GMT
+Content-Length: 127
+
+{
+7    "TokenString": "30a7394c6a7440b88769a454cfc31546",
+(    "UserEmail": "bootAPI@bootAPI.com",
+.    "ExpirationTime": "/Date(1671778705247)/"
+}
 Request method:	POST
 ,Request URI:	https://todo.ly/api/items.json
 Proxy:			<none>
@@ -5,7 +35,7 @@
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-CHeaders:		Authorization=Basic Ym9vdEFQSUBib290QVBJLmNvbToxMjM0NQ==
+1Headers:		token=30a7394c6a7440b88769a454cfc31546
 				Accept=*/*
 0				Content-Type=text/plain; charset=ISO-8859-1
 Cookies:		<none>
@@ -18,15 +48,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=shsiiiasex3vvlgxa44mwhif; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=mydhipe40q4ga12cixmvekkh; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Mon, 19 Dec 2022 23:08:23 GMT
+$Date: Fri, 23 Dec 2022 01:58:28 GMT
 Content-Length: 531
 
 {
-    "Id": 11094165,
+    "Id": 11094727,
     "Content": "New Itemmm",
     "ItemType": 1,
     "Checked": false,
@@ -40,14 +70,14 @@
     "Recurrence": null,
     "ItemOrder": null,
     "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1671491303010)/",
+3    "LastSyncedDateTime": "/Date(1671760708257)/",
     "Children": [
 	        
     ],
     "DueDateTime": null,
-,    "CreatedDate": "/Date(1671491302993)/",
+,    "CreatedDate": "/Date(1671760708227)/",
     "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1671491302993)/",
+0    "LastUpdatedDate": "/Date(1671760708243)/",
     "Deleted": false,
     "Notes": "",
     "InHistory": false,
@@ -56,13 +86,13 @@
     "OwnerId": 707341
 }
 Request method:	POST
-5Request URI:	https://todo.ly/api/items/11094165.json
+5Request URI:	https://todo.ly/api/items/11094727.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-CHeaders:		Authorization=Basic Ym9vdEFQSUBib290QVBJLmNvbToxMjM0NQ==
+1Headers:		token=30a7394c6a7440b88769a454cfc31546
 				Accept=*/*
 0				Content-Type=text/plain; charset=ISO-8859-1
 Cookies:		<none>
@@ -75,15 +105,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=0xbg00to5fpgzg1xj4pobe03; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=sglhfxjwbkhuhvb5hh5iz3x0; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Mon, 19 Dec 2022 23:08:27 GMT
+$Date: Fri, 23 Dec 2022 01:58:30 GMT
 Content-Length: 531
 
 {
-    "Id": 11094165,
+    "Id": 11094727,
     "Content": "updateeeee",
     "ItemType": 1,
     "Checked": false,
@@ -97,14 +127,14 @@
     "Recurrence": null,
     "ItemOrder": null,
     "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1671491307315)/",
+3    "LastSyncedDateTime": "/Date(1671760710129)/",
     "Children": [
 	        
     ],
     "DueDateTime": null,
-,    "CreatedDate": "/Date(1671491302993)/",
+,    "CreatedDate": "/Date(1671760708227)/",
     "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1671491307300)/",
+0    "LastUpdatedDate": "/Date(1671760710100)/",
     "Deleted": false,
     "Notes": "",
     "InHistory": false,
@@ -113,13 +143,13 @@
     "OwnerId": 707341
 }
 Request method:	DELETE
-5Request URI:	https://todo.ly/api/items/11094165.json
+5Request URI:	https://todo.ly/api/items/11094727.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-CHeaders:		Authorization=Basic Ym9vdEFQSUBib290QVBJLmNvbToxMjM0NQ==
+1Headers:		token=30a7394c6a7440b88769a454cfc31546
 				Accept=*/*
 0				Content-Type=text/plain; charset=ISO-8859-1
 Cookies:		<none>
@@ -132,15 +162,15 @@
 .Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-WSet-Cookie: ASP.NET_SessionId=rfaq1cd44yrgldkpk2zpug1d; path=/; HttpOnly; SameSite=Lax
+WSet-Cookie: ASP.NET_SessionId=zyfqcrgtuoistyrp54022vtz; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-$Date: Mon, 19 Dec 2022 23:08:28 GMT
+$Date: Fri, 23 Dec 2022 01:58:31 GMT
 Content-Length: 530
 
 {
-    "Id": 11094165,
+    "Id": 11094727,
     "Content": "updateeeee",
     "ItemType": 1,
     "Checked": false,
@@ -154,14 +184,14 @@
     "Recurrence": null,
     "ItemOrder": null,
     "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1671491308906)/",
+3    "LastSyncedDateTime": "/Date(1671760711580)/",
     "Children": [
 	        
     ],
     "DueDateTime": null,
-,    "CreatedDate": "/Date(1671491302993)/",
+,    "CreatedDate": "/Date(1671760708227)/",
     "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1671491308890)/",
+0    "LastUpdatedDate": "/Date(1671760711567)/",
     "Deleted": true,
     "Notes": "",
     "InHistory": false,
